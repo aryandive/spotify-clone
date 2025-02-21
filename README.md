@@ -1,0 +1,2 @@
+# spotify-clone
+ This project is a Spotify clone built using HTML, CSS, and JavaScript. It mimics Spotify’s sleek, dark interface with a sidebar for navigation, a main content area displaying playlists and track lists, and a fixed footer serving as an audio player. JavaScript is used to fetch track data, control audio playback with the HTML5 Audio API, and manage user interactions, while CSS styles the layout with modern, responsive design elements.
