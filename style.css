@@ -13,7 +13,7 @@ body {
 
 .container {
   display: flex;
-  gap: 10px;
+  gap: 0px;
   width: 100vw;
 }
 
@@ -26,48 +26,67 @@ body {
   padding: 10px;
   height: 100vh;
   margin: 20px;
+  position: relative;
 }
 
 .right {
-  height: 50px;
   width: 75vw;
   padding: 1px;
-  /* font-weight: bold; */
+  position: relative;
 }
 
 .home {
   padding: 10px;
 }
 
+.home ul {
+  padding: 0px 10px;
+}
+
 .home ul li {
-  width: 14px;
+  width: 19px;
   list-style: none;
   display: flex;
   gap: 15px;
-  padding-top: 14px;
+  padding-top: 9px;
   font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.spotify-playlist {
+  padding: 10px;
+  margin: 20px;
+  height: 109.4vh;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   height: 50px;
-  display: flex;
-  width: 75vw;
 }
 
 .header>* {
-  padding: 20px;
+  padding: 7px;
 }
 
 .heading {
   display: flex;
   gap: 15px;
   width: 100%;
-  padding-top: 14px;
   padding: 23px 14px;
   font-weight: bold;
   align-items: center;
+  position: relative;
 }
 
 .heading img {
@@ -81,22 +100,13 @@ body {
   gap: 12px;
   position: absolute;
   bottom: 0;
-  padding: 10px 0px;
+  padding: 25px 0px;
 }
 
-.footer a{
-color: gray;
+.footer a {
+  color: gray;
 }
 
-.right{
-  margin: 16px 0px;
-  position: relative;
-}
-
-.spotify-playlist {
-  padding: 1px;
-  height: 100vh;
-}
 
 .cardContainer {
   margin: 25px;
@@ -104,7 +114,7 @@ color: gray;
   gap: 10px;
   flex-wrap: wrap;
   overflow-y: scroll;
-  max-height: 70vh;
+  max-height: 80vh;
 }
 
 .card {
@@ -115,11 +125,11 @@ color: gray;
   position: relative;
 }
 
-.card > * {
+.card>* {
   padding-top: 10px;
 }
 
-.card img{
+.card img {
   width: 100%;
 }
 
@@ -144,7 +154,7 @@ color: gray;
   color: white;
   font-weight: bold;
   border: none;
-  outline: none;  
+  outline: none;
   cursor: pointer;
 }
 
@@ -171,4 +181,13 @@ color: gray;
 .playbar {
   position: relative;
   bottom: 0;
+  background-color: rgb(139, 193, 139);
+  width: 100%;
+  padding: 12px;
+}
+
+.songbuttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
 }
